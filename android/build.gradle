@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.amap.flutter.location"
-    compileSdkVersion 29
+    compileSdkVersion 35 //may be need > 31
 
     defaultConfig {
         minSdkVersion 16
